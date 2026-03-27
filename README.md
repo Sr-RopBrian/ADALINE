@@ -23,7 +23,7 @@ Ensure you have **Python 3.8+** and **Git** installed on your machine.
 Open your terminal or command prompt and run:
 
 ```
-git clone [https://github.com/Sr-RopBrian/ADALINE](https://github.com/Sr-RopBrian/ADALINE) # or git clone git@github.com:Sr-RopBrian/ADALINE.git
+git clone https://github.com/Sr-RopBrian/ADALINE # or git clone git@github.com:Sr-RopBrian/ADALINE.git
 cd ADALINE
 ```
 
