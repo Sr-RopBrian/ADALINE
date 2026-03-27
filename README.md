@@ -1,4 +1,14 @@
-# ADALINE: Logic Gate Implementation
+# ADALINE: Logic Gates & Biological Classification
+
+An implementation of the **Adaptive Linear Neuron (ADALINE)** model to solve diverse binary classification problems. This project explores the **Widrow-Hoff (Delta)** learning rule through two distinct lenses: Boolean logic and simulated biological data.
+
+## Project Structure
+
+This repository contains two primary notebooks:
+
+1. **`ADALINE_AND.ipynb`**: Implements the classic **AND Gate**. This demonstrates how ADALINE finds a decision boundary for rigid, perfectly separable logical inputs.
+2. **`ADALINE.ipynb`**: Applies ADALINE to a **Bird Species Dataset**. This involves a simulated classification task -distinguishing between two bird species based on features like wing span and weight - showcasing the model's performance on "natural" data.
+
 
 An implementation of the **Adaptive Linear Neuron (ADALINE)** model to solve the **AND Gate** logic problem. This project demonstrates the fundamentals of Gradient Descent and the Widrow-Hoff learning rule.
 
