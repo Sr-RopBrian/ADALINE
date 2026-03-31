@@ -16,10 +16,11 @@ An implementation of the **Adaptive Linear Neuron (ADALINE)** model to solve the
 This repository contains a Python implementation of the ADALINE neural network. Unlike a standard Perceptron, ADALINE uses a linear activation function to minimize Mean Squared Error (MSE), providing a more stable and "centered" decision boundary for linearly separable datasets.
 
 ### Key Features
-* **Stochastic Gradient Descent (SGD):** Weight updates occur after every training sample.
-* **Visualization:** Includes animations of the decision boundary shifting in real-time.
-* **Traceability:** Detailed logging of weights, bias, and MSE per epoch.
-
+* **Dual Optimization Algorithms:** Implements both **Stochastic Gradient Descent (SGD)** (updating weights per sample) and **Batch Gradient Descent (BGD)** (updating weights per epoch) for direct comparison.
+* **Comparative Convergence Analysis:** Tracks and plots the Mean Squared Error (MSE) trajectories side-by-side to illustrate the stability of Batch versus the speed of Incremental learning.
+* **Dynamic Visualization:** Includes `matplotlib` animations showing the real-time geometric shift of the decision boundaries, highlighting SGD against BGD.
+* **Detailed Traceability:** Comprehensive `pandas` DataFrames logging the exact state of weights, bias, and continuous error at every step of the training process.
+  
 ---
 
 ## Setup Instructions
