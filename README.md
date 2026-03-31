@@ -21,8 +21,6 @@ This repository contains a Python implementation of the ADALINE neural network. 
 * **Dynamic Visualization:** Includes `matplotlib` animations showing the real-time geometric shift of the decision boundaries, highlighting SGD against BGD.
 * **Detailed Traceability:** Comprehensive `pandas` DataFrames logging the exact state of weights, bias, and continuous error at every step of the training process.
   
----
-
 ## Setup Instructions
 
 ### 1. Prerequisites
